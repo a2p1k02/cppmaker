@@ -11,10 +11,9 @@ And this maker will create a cmake project with a standard hello world code in t
 
 Support
 - [x] CMake
-- [ ] Makefile
-- [ ] Qmake
-- [ ] Bezel
-- [ ] Sh
+- [x] Makefile
+- [x] Qmake
+- [x] Bazel
 
 ## Compiling
 ```
@@ -25,3 +24,8 @@ make
 ./cppmake
 ```
 
+TODO
+- [ ] Allow to choose library or binary project
+- [ ] Support python, golang, zig
+- [ ] Add feature to build projects with cppmaker
+- [ ] Install dependencies
